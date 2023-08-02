@@ -63,7 +63,7 @@ hold.addEventListener("click", function () {
     score1el.textContent = gs_1;
   }
   change_player();
-  if (gs_0 >= 20 || gs_1 >= 20) {
+  if (gs_0 >= 50 || gs_1 >= 50) {
     roll_dice.disabled = true;
     hold.disabled = true;
     console.log("inside the winner");
